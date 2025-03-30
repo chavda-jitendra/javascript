@@ -17,3 +17,6 @@ let age = 20
 
 console.log(typeof age)
 
+// Stack(Primitive) , Heap(Non-Primitive)
+
+
