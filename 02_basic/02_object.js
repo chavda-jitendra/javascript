@@ -1,3 +1,5 @@
+// object literals
+
 // const mySum = Symbol("key1") //important
 
 const user = {
