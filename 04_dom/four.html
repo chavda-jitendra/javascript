@@ -1,0 +1,51 @@
+<!DOCTYPE html> //imp this file
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edite Dom and Delete</title>
+</head>
+<body style="background-color: #212121; color: white;">
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(lname){     //create function
+        const li =  document.createElement('li')  //element create
+        li.innerHTML = `${lname}`                   //store in innerHTML
+        document.querySelector('.language').appendChild(li);//print class through language <li>
+    }
+    addLanguage("python") //sent data
+
+
+    function addOptilanguage(lname){
+            const li = document.createElement('li');
+            const addtext = document.createTextNode(lname)
+            li.appendChild(addtext)
+            document.querySelector('.language').appendChild(li); 
+
+    }
+    addOptilanguage("typscript")
+
+    //Edit = 1
+
+    const slang = document.querySelector("li:nth-child(2)")
+    //slang.innerHTML = "mojo"
+    const newli = document.createElement('li')
+    newli.textContent = "mojo"
+    slang.replaceWith(newli)
+
+
+    //Edit = 2
+    const firstlang = document.querySelector('li:first-child')
+    firstlang.outerHTML= '<li>typesscript</li>'
+
+
+
+    //remove
+
+    const lastlanguage = document.querySelector('li:last-child')
+    lastlanguage.remove()
+</script>
+</html>
