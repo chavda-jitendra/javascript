@@ -70,3 +70,24 @@ form.addEventListener('submit', function (e) {
 
 
 ```
+
+
+## project 3 clock
+
+```javascript
+
+const clock = document.getElementById('clock');
+// document.querySelector('#clock')  //both are same
+
+// let date = new Date();
+// console.log(date.toLocaleTimeString());
+// console.log(date.toLocaleDateString());
+
+setInterval(function () {
+  let date = new Date();
+  // console.log(date.toLocaleTimeString());
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000); //1000 means 1 second
+
+
+```
