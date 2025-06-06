@@ -11,11 +11,12 @@ let age = 20
 // undefined =>
 // boolean => true/false
 // symbol => unique
-
-
 // object
 
-console.log(typeof age)
+
+console.log(typeof age) 
+console.log(typeof null) // obj
+
 
 // Stack(Primitive) , Heap(Non-Primitive)
 
