@@ -4,10 +4,10 @@ var accountPassword = "12345"
 let accountState;  //this undefined code values
 accountCity = "Jaipur"
 
-//accountId = 2 //this not allowed
+//accountId = 2 //this not allowed const is fixed value
 accountEmail = "jc@gmail.com"
 accountPassword = "567"
-accountCity = "Bangluru" 
+// accountCity = "Bangluru" 
 
 
 console.log(accountId);
