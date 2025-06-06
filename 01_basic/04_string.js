@@ -10,7 +10,7 @@ console.log(gameName.indexOf('F'))
 // lower
 // replace
 // split
-
+// trim remove white shpace   
 
 // const name = "jitendra"
 // const count = 50
