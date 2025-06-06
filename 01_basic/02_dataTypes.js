@@ -15,7 +15,7 @@ let age = 20
 
 
 console.log(typeof age) 
-console.log(typeof null) // obj
+console.log(typeof null) // object
 
 
 // Stack(Primitive) , Heap(Non-Primitive)
