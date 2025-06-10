@@ -19,7 +19,7 @@
 //combien object
 
 const obj1 = {name:"abc"}
-const obj2 = {}
+const obj2 = {number:1321}
 
 const obj3 = Object.assign(obj1, obj2)
 console.log(obj3);
